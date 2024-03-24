@@ -52,7 +52,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    background-image: url(marguerite_de_valois-removebg-preview\(2\).png);
 }
 
 nav {
@@ -60,7 +60,7 @@ nav {
     justify-content: center;
     transform: translateX(-40%);
     align-items: center;
-    border-bottom: 2px solid rgb(224, 12, 33);
+    border-bottom: 2px solid rgb(224, 12, 129);
 }
 
 nav ul {
@@ -114,6 +114,7 @@ nav ul li a:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     gap: 10px;
+
 }
 
 .cart {
@@ -146,23 +147,11 @@ nav ul li a:hover {
 .cart_image_3 {
     background-image: url(resultat.png);
 }
-.cart_image_4 {
-    background-image: url(../image/CARTEGRAPHIQUE.png);
-}
-.cart_image_5 {
-    background-image: url(../image/procsseur.png);
-}
+
 
 .cart:hover {
     transform: translateY(-15px);
 }
-
-
-
-
-
-
-
 
 
 h1 {
@@ -257,35 +246,15 @@ footer {
 
 /* Media queries */
 
-@media screen and (max-width: 1000px) {
+@media all and (max-width: 860px) {
 
     .content-footer {
-        max-width: 100%;
+        max-width: 50%;
         flex-wrap: wrap;
     }
-    .bloc {
-        flex-basis: auto;
-        margin: 20px 20px;
-    }
+   
 
 
 }
 
 
-@media screen and (max-width: 600px) {
-    .content-footer {
-        justify-content: center;
-        padding-top: 30px;
-    }
-    .bloc {
-        flex-basis: 70%;
-        /* margin: 10px; */
-    }
-    .footer-contact h3,
-    .footer-services h3,
-    .footer-schedule h3,
-    .footer-medias h3 {
-        padding-bottom: 5px;
-    }
-
-}
